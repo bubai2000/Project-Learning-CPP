@@ -56,6 +56,8 @@ class result: public exam, public sports{
         }
 };
 
+// Result would get two instance of roll if virtual base class was not used, so we used virtual base class and now it will get only one instance of roll directly from student
+
 int main()
 {
     result harry;
