@@ -11,7 +11,7 @@ class student{
             roll=a;
         }
         void print_roll(void){
-            cout<<"Your roll no:"<<roll<<endl;
+            cout<<"Hi! Your roll no:"<<roll<<endl;
         }
 
 };
